@@ -1,0 +1,28 @@
+.pie-de-pagina{
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    text-transform: lowercase;
+    font-family: Pacifico, cursive;
+}
+
+
+
+/*    INICIANDO CCS RESPONSIVE    */
+
+@media screen and (min-width: 0){
+
+    .pie-de-pagina{
+        padding: 1rem 1.5rem;
+        font-size: 11px;
+    }
+   
+}
+
+@media screen and (min-width: 768px){
+
+    .pie-de-pagina{
+        padding: 1.5rem 3rem;
+        font-size: 21px;
+    }
+}

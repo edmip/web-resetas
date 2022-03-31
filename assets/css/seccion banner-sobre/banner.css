@@ -1,0 +1,42 @@
+.banner-imagen{
+    background: url("../../img/banner.jpg") no-repeat center / cover;
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+
+.banner-titulo{
+    
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    text-shadow: 0 8px 4px rgba(0, 0, 0, 65%);
+    width: 100%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*    INICIANDO CCS RESPONSIVE    */
+
+@media screen and (min-width: 0){
+
+    .banner-imagen{
+        height: calc(100vh - 51px);
+    }
+    .banner-titulo{
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .banner-imagen{
+        height: calc(100vh - 72px);
+    }
+    .banner-titulo{
+        font-size: 5.0625rem;
+    }
+}

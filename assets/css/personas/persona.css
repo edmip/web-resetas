@@ -1,0 +1,84 @@
+.persona{
+    display: flex;
+    flex-direction: column;
+}
+
+.personas{
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+.persona-nombre{
+    margin: 1rem 0;
+    font-size: 1.75rem;
+    font-family: Pacifico, cursive;
+    color: #8d0606;
+}
+.persona-funcion{
+    text-transform: lowercase;
+    color: #484848;
+    font-size: 1rem;
+}
+
+.persona-imagen{
+    background: #484848; 
+    height: 300px;
+    width: 300px;
+}
+
+.persona-imagen--roberta{
+    background: url("../../img/personas/roberta.jpg");
+    
+}
+
+.persona-imagen--marcela{
+    background: url("../../img/personas/marcela.jpg");
+    
+}
+
+.persona-imagen--andrea{
+    background: url("../../img/personas/andrea.jpg");
+    
+}
+
+.persona-imagen{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+/*    INICIANDO CCS RESPONSIVE    */
+
+@media screen and (min-width: 0){
+
+    .persona{
+        margin-bottom: 2rem;
+    }
+   
+}
+
+@media screen and (min-width: 768px){
+
+    .persona{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 0){
+
+    .personas{
+        margin-bottom: 2rem;
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (min-width: 768px){
+
+    .personas{
+        margin-bottom: 0;
+        flex-direction: row;
+    }
+}
